@@ -3,11 +3,11 @@ import shutil
 from git import Repo
 
 CLONE_DIR = "./cloned_repos"
-IGNORE_DIRS = {'.git', 'node_modules', 'venv', '__pycache__', 'dist', 'build'}
+IGNORE_DIRS = {".git", "node_modules", "venv", "__pycache__", "dist", "build"}
 
 
 def clone_repository(repo_url: str) -> str:
-    repo_name = repo_url.split('/')[-1].replace('.git', '')
+    repo_name = repo_url.split("/")[-1].replace(".git", "")
     target_path = os.path.join(CLONE_DIR, repo_name)
 
     if os.path.exists(target_path):
