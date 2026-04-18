@@ -1782,6 +1782,7 @@ dependencies = [
     { name = "langchain-chroma" },
     { name = "langchain-openai" },
     { name = "langchain-text-splitters" },
+    { name = "pydantic" },
     { name = "python-dotenv" },
 ]
 
@@ -1793,6 +1794,7 @@ requires-dist = [
     { name = "langchain-chroma", specifier = ">=1.1.0" },
     { name = "langchain-openai", specifier = ">=1.1.14" },
     { name = "langchain-text-splitters", specifier = ">=1.1.2" },
+    { name = "pydantic", specifier = ">=2.13.2" },
     { name = "python-dotenv", specifier = ">=1.2.2" },
 ]
 
